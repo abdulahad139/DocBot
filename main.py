@@ -69,10 +69,10 @@ def load_css(file_name):
 
 def main():
     
-    st.set_page_config("DocuChat")
+    st.set_page_config("DocBot")
     load_css('styles.css')
     
-    st.markdown('<div class="custom-mainheader">Welcome to DocuChat!</div>', unsafe_allow_html=True)
+    st.markdown('<div class="custom-mainheader">Welcome to DocBot!</div>', unsafe_allow_html=True)
 
     # Use the custom class from CSS file
     st.markdown('<div class="custom-header">Got a question? Let\'s dive into the PDF!</div>', unsafe_allow_html=True)
